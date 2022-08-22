@@ -1,0 +1,33 @@
+
+.galeria-fotos {
+    color:rgb(38, 192, 54);
+    font-size: 30px;
+}
+.boton-new {
+    background-color: black;
+    width: 14%;
+    height: 50px;
+}
+.imagen-luciernaga {
+    width: 400px;
+    height: 250px;
+}
+.imagen-luciernaga1 {
+width: 300px;
+height: 250px;
+}
+@media (max-width: 768px) {
+.imagen-luciernaga {
+    width: 300px;
+height: 250px;
+}
+.boton-new {
+    background-color: rgb(255, 255, 255);
+    width: 0;
+    height: 0px;
+    border: none;
+}
+.luci {
+    margin: 10px;
+}
+}
